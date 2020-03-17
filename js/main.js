@@ -12,7 +12,7 @@ dinos.forEach(function (dino) {
   var $img = $('<img>');
   var $caption = $('<figcaption>');
 
-  $caption.html(dino.name;);
+  $caption.html(dino.name);
   $img.attr('src', 'images/' + dino.img);
 
   $figure.append($img, $caption);
